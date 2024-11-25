@@ -5,9 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "haversine>=2.8.1",
+    "holidays>=0.61",
     "lightgbm>=4.5.0",
     "matplotlib>=3.9.2",
+    "networkx>=3.3",
     "pandas>=2.2.3",
+    "plotly>=5.24.1",
     "scikit-learn>=1.5.2",
     "seaborn>=0.13.2",
 ]
@@ -15,4 +19,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.5",
+    "jupyter>=1.1.1",
+    "nbformat>=5.10.4",
 ]
